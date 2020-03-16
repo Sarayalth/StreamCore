@@ -1,6 +1,6 @@
 ﻿using StreamCore.Chat;
 using StreamCore.Config;
-using IllusionPlugin;
+using IPA.Old;
 using System;
 using System.Collections;
 using System.IO;
@@ -20,7 +20,7 @@ namespace StreamCore
         private readonly TwitchLoginConfig TwitchLoginConfig = new TwitchLoginConfig();
         public static readonly string ModuleName = "Stream Core";
         public string Name => ModuleName;
-        public string Version => "2.2.4";
+        public string Version => "2.2.5";
 
         private static readonly object _loggerLock = new object();
         public static void Log(string text,
